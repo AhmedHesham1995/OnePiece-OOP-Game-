@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f6f6;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.person{
+    width: 45%;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.person h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.person .progress{
+    background-color: #d8d3d3;
+    height: 30px;
+}
+
+.person .progress span{
+    background-color: green;
+    width: inherit;
+    display: block;
+    height: inherit;
+}
+
+.person img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.person button{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.person p{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
