@@ -5,8 +5,10 @@
 }
 
 body{
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
     font-family: 'Quicksand', sans-serif;
+    background-color: rgb(46, 36, 36);
+    background-color: #000;
 }
 
 .box{
@@ -36,6 +38,7 @@ body{
 
 .person .progress span{
     background-color: green;
+    /* background-color: rgb(185, 35, 35); */
     width: inherit;
     display: block;
     height: inherit;
@@ -46,6 +49,7 @@ body{
     height: 300px;
     display: block;
     margin: 10px auto;
+    border-radius: 5px;
 }
 
 .person button{
@@ -64,3 +68,16 @@ body{
     font-size: 25px;
     letter-spacing: 2px;
 }
+
+
+
+
+/* @media (max-width: 700px){
+    .person{
+        transform: scale(.8);
+    }
+    .person img{
+        transform: scale(.8);
+        display: inline-block;
+    }
+} */
